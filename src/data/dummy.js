@@ -2,8 +2,6 @@ import React from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import {
   FiShoppingBag,
-  FiEdit,
-  FiBarChart,
   FiCreditCard,
   FiStar,
   FiShoppingCart,
@@ -14,13 +12,10 @@ import {
   BsShield,
   BsChatLeft,
 } from "react-icons/bs";
-import { BiColorFill } from "react-icons/bi";
-import { IoMdContacts } from "react-icons/io";
 import { RiContactsLine } from "react-icons/ri";
 import { MdOutlineSupervisorAccount } from "react-icons/md";
 import { HiOutlineRefresh } from "react-icons/hi";
 import { TiTick } from "react-icons/ti";
-import { GrLocation } from "react-icons/gr";
 import avatar from "./avatar.jpg";
 import avatar2 from "./avatar2.jpg";
 import avatar3 from "./avatar3.png";
@@ -451,16 +446,6 @@ export const earningData = [
     title: "Products",
     iconColor: "rgb(255, 244, 229)",
     iconBg: "rgb(254, 201, 15)",
-    pcColor: "green-600",
-  },
-  {
-    icon: <FiBarChart />,
-    amount: "423,39",
-    percentage: "+38%",
-    title: "Sales",
-    iconColor: "rgb(228, 106, 118)",
-    iconBg: "rgb(255, 244, 229)",
-
     pcColor: "green-600",
   },
   {
